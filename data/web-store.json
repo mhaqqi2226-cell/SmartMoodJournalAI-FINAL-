@@ -1,0 +1,72 @@
+{
+  "moods": [
+    {
+      "date": "2026-01-08",
+      "mood": "Sedih",
+      "note": "",
+      "timestamp": "2026-01-08T16:21:28.814Z"
+    },
+    {
+      "date": "2026-01-08",
+      "mood": "Stres",
+      "note": "",
+      "timestamp": "2026-01-08T16:21:30.647Z"
+    },
+    {
+      "date": "2026-01-08",
+      "mood": "Senang",
+      "note": "",
+      "timestamp": "2026-01-08T16:21:32.251Z"
+    }
+  ],
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "tes"
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Ada yang ingin Anda bicarakan atau tanyakan hari ini? Saya siap membantu."
+    },
+    {
+      "role": "user",
+      "content": "test"
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Saya di sini untuk mendengarkan dan membantu. Ada topik atau pertanyaan khusus yang ingin Anda bahas hari ini? Jika Anda merasa sedang mengalami kesulitan emosional atau stres, silakan beri tahu saya—kita bisa cari cara atau sumber daya yang tepat bersama. Apa yang ingin Anda diskusikan?"
+    },
+    {
+      "role": "user",
+      "content": "test"
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Apakah Anda ingin memulai percakapan tentang apa‑apa? Jika ini hanya pengujian, saya juga siap membantu menjawab pertanyaan apa pun yang Anda miliki. 😊"
+    },
+    {
+      "role": "user",
+      "content": "saya sedang sedih"
+    },
+    {
+      "role": "assistant",
+      "content": "Saya minta maaf mendengar bahwa Anda sedang merasa sedih. Perasaan ini memang bisa menimbulkan beban yang berat, tapi Anda tidak perlu menanggungnya sendirian. Ada beberapa hal yang bisa kita coba bersama:\n\n1. **Beri ruang untuk merasakan** – Kadang kita terlalu cepat “menghapus” perasaan sedih. Izinkan diri Anda benar-benar merasakan apa yang ada di hati. Ini bukan tentang menunda, tapi memberi ruang agar emosi dapat “dikeluarkan”.\n\n2. **Coba menulis atau menggambar** – Menyalurkan perasaan ke dalam tulisan atau gambar dapat membantu memprosesnya. Jangan khawatir tentang kualitasnya; fokuskan saja pada apa yang Anda rasakan.\n\n3. **Berbicara dengan orang terdekat** – Terkadang berbagi dengan teman dekat, keluarga, atau mentor bisa sangat membantu. Jika Anda merasa tidak nyaman memulai, Anda bisa menulis pesan dulu lalu mengirimnya.\n\n4. **Aktivitas fisik ringan** – Jalan santai, stretching, atau yoga ringan dapat merangsang endorfin yang membantu meredakan stres.\n\n5. **Rutinitas sederhana** – Membuat daftar hal-hal kecil yang menyenangkan atau menyiapkan makanan favorit dapat memberi sedikit rasa kontrol.\n\nJika Anda merasa sedihnya terlalu lama atau menampakkan tanda-tanda depresi, saya sarankan mencari bantuan profesional, seperti psikolog atau konselor. Jika ingin berbagi lebih lanjut—apakah ada sesuatu yang khusus membuat Anda sedih?—saya siap mendengarkan."
+    },
+    {
+      "role": "user",
+      "content": "tes"
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! Saya di sini untuk membantu. Apakah Anda ingin saya melakukan tes psikologi singkat, atau ada hal lain yang ingin Anda coba? Beri tahu saya apa yang Anda maksud dengan “tes” agar saya bisa membantu dengan tepat."
+    },
+    {
+      "role": "user",
+      "content": "tes"
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Apa yang bisa saya bantu hari ini?"
+    }
+  ]
+}

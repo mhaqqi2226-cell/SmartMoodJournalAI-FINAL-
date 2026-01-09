@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mood Journal - Web Version</title>
+    <meta name="description" content="Lacak emosi dan tingkatkan kesehatan mental dengan Smart Mood Journal">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="header-content">
+                <h1>🧠 Smart Mood Journal</h1>
+                <p class="subtitle">Lacak emosi, tingkatkan kesehatan mental</p>
+            </div>
+            <button id="toggle-theme" class="theme-toggle">🌙</button>
+        </header>
+
+        <main>
+            <section class="mood-section glass-card">
+                <h2>Bagaimana perasaanmu hari ini?</h2>
+                <div class="mood-buttons">
+                    <button class="mood-btn" data-mood="Senang" data-emoji="😊">
+                        <span class="emoji">😊</span>
+                        <span class="label">Senang</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Netral" data-emoji="😐">
+                        <span class="emoji">😐</span>
+                        <span class="label">Netral</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Sedih" data-emoji="😢">
+                        <span class="emoji">😢</span>
+                        <span class="label">Sedih</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Stres" data-emoji="😫">
+                        <span class="emoji">😫</span>
+                        <span class="label">Stres</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Tenang" data-emoji="😌">
+                        <span class="emoji">😌</span>
+                        <span class="label">Tenang</span>
+                    </button>
+                    <button class="mood-btn" data-mood="Bersemangat" data-emoji="🤩">
+                        <span class="emoji">🤩</span>
+                        <span class="label">Bersemangat</span>
+                    </button>
+                </div>
+                <textarea id="reflectionInput" class="reflection-input" rows="3"
+                    placeholder="Tulis refleksi singkat tentang hari ini..."></textarea>
+                <div id="suggestion" class="suggestion"></div>
+            </section>
+
+            <div class="two-column">
+                <section class="chart-section glass-card">
+                    <h3>📊 Statistik Mood (7 Hari)</h3>
+                    <canvas id="moodChart"></canvas>
+                    <div id="summary" class="summary"></div>
+                </section>
+
+                <section class="history-section glass-card">
+                    <h3>📝 Riwayat Minggu Ini</h3>
+                    <ul id="history-list" class="history-list"></ul>
+                </section>
+            </div>
+
+            <section class="ai-section glass-card">
+                <h3>🤖 Konsultasi AI Psikolog</h3>
+                <div id="aiHistory" class="ai-history"></div>
+                <div class="ai-input-container">
+                    <textarea id="aiInput" class="ai-input" rows="2"
+                        placeholder="Tanya atau curhat ke AI psikolog..."></textarea>
+                    <button id="askAI" class="ask-btn">
+                        <span class="btn-text">Kirim</span>
+                        <span class="btn-icon">✨</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "smart-mood-journal",
+  "version": "1.0.0",
+  "description": "AI-powered mood tracking desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx electron .",
+    "dev": "npx electron . --dev",
+    "web": "node server.js",
+    "web:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mood",
+    "journal",
+    "ai",
+    "mental-health"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "electron": "^39.2.7",
+    "electron-store": "^11.0.2",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
